@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "FindingJobsNearby",
+    "slug": "FindingJobsNearby",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.bignerdio.jobsnearby",
+      "supportsTablet": true,
+      "config": {
+      "googleMapsApiKey": "YAIzaSyDQrn6UtJT-SW8jB4ZeixX498jaZ-gHDc8"
+      }
+     
+   
+    }
+  }
+}
